@@ -1,0 +1,21 @@
+.button-group {
+  display: flex;
+  justify-content: end;
+  border-top: 1px solid #ccc;
+  margin-top: 24px;
+  margin-left: -16px;
+  margin-right: -16px;
+  button.btn-light {
+    margin-right: 16px;
+    margin-top: 16px;
+  }
+  button.btn-submit {
+    background-color: #ccc;
+    width: 100px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 16px;
+    margin-top: 16px;
+    color: black;
+  }
+}
